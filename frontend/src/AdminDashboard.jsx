@@ -32,7 +32,7 @@ export default function AdminDashboard() {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:5000/api/contact/admin?passcode=${encodeURIComponent(passcode)}`);
+      const res = await fetch(`https://portfolio-qj8m.onrender.com/api/contact/admin?passcode=${encodeURIComponent(passcode)}`);
       const data = await res.json();
       if (res.ok) {
         setContacts(data);
