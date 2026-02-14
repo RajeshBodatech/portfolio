@@ -231,8 +231,24 @@ function App() {
                 {/* Timeline accent with glow */}
                 <div className="absolute left-0 top-8 bottom-8 w-1 bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 rounded-full ml-2 hidden sm:block shadow-[0_0_24px_6px_rgba(124,58,237,0.25)]"></div>
                 <div className="flex flex-col gap-10">
+                   <ExperienceCard
+                    title="Software Developer Engineer Intern(Onsite - Pune,Maharashtra)"
+                    org="Provakil"
+                    type="Internship"
+                    duration=" January 05, 2026 – July 05, 2026"
+                    description="Working on production web applications using Node.js and MongoDB, implementing new features, fixing bugs, and optimizing APIs. Collaborated with QA and product teams to test and deploy updates while following Git-based development workflows."
+                    motionProps={{ transition: { delay: 0.1 } }}
+                  />
+                   <ExperienceCard
+                    title="Fullstack Developer Intern(Remote)"
+                    org="Proxenix"
+                    type="Internship"
+                    duration="June 2025 – August 2025"
+                    description="Built a real-time chat application using Socket.IO with messaging, media sharing, and emoji picker support, and implemented JWT-based authentication, password encryption, and friend request management features."
+                    motionProps={{ transition: { delay: 0.1 } }}
+                  />
                   <ExperienceCard
-                    title="Fullstack Developer Intern"
+                    title="Fullstack Developer Intern(Remote)"
                     org="Cyber Help Hope Initiative Foundation"
                     type="Internship"
                     duration="May 15 – June 30, 2025"
@@ -240,7 +256,7 @@ function App() {
                     motionProps={{ transition: { delay: 0.1 } }}
                   />
                   <ExperienceCard
-                    title="Cybersecurity Intern"
+                    title="Cybersecurity Intern(Remote)"
                     org="Cyber Help Hope Initiative Foundation"
                     type="Internship"
                     duration="May 15 – June 30, 2025"
