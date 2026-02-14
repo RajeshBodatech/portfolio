@@ -232,14 +232,18 @@ function App() {
                 <div className="absolute left-0 top-8 bottom-8 w-1 bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 rounded-full ml-2 hidden sm:block shadow-[0_0_24px_6px_rgba(124,58,237,0.25)]"></div>
                 <div className="flex flex-col gap-10">
                    <ExperienceCard
-                    title="Software Developer Engineer Intern
-                     (Onsite - Pune,Maharashtra)"
-                    org="Provakil"
-                    type="Internship"
-                    duration=" January 05, 2026 – July 05, 2026"
-                    description="Working on production web applications using Node.js and MongoDB, implementing new features, fixing bugs, and optimizing APIs. Collaborated with QA and product teams to test and deploy updates while following Git-based development workflows."
-                    motionProps={{ transition: { delay: 0.1 } }}
-                  />
+                      title={
+                        <>
+                          Software Developer Engineer Intern <br />
+                               (Onsite – Pune, Maharashtra)
+                       </>
+                      }
+                     org="Provakil"
+                     type="Internship"
+                     duration="January 05, 2026 – July 05, 2026"
+                     description="Working on production web applications using Node.js and MongoDB, implementing new features, fixing bugs, and optimizing APIs. Collaborated with QA and product teams to test and deploy updates while following Git-based development workflows."
+                     motionProps={{ transition: { delay: 0.1 } }}
+                    />
                    <ExperienceCard
                     title="Fullstack Developer Intern(Remote)"
                     org="Proxenix"
