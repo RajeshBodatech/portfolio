@@ -232,7 +232,8 @@ function App() {
                 <div className="absolute left-0 top-8 bottom-8 w-1 bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 rounded-full ml-2 hidden sm:block shadow-[0_0_24px_6px_rgba(124,58,237,0.25)]"></div>
                 <div className="flex flex-col gap-10">
                    <ExperienceCard
-                    title="Software Developer Engineer Intern(Onsite - Pune,Maharashtra)"
+                    title="Software Developer Engineer Intern
+                     (Onsite - Pune,Maharashtra)"
                     org="Provakil"
                     type="Internship"
                     duration=" January 05, 2026 – July 05, 2026"
