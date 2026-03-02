@@ -224,6 +224,14 @@ function App() {
                   codeLink="https://github.com/RajeshBodatech/Netflix-Clone"
                   liveLink="https://netflix-clone-ojre.onrender.com/"
                 />
+                <ProjectCard
+                  images={["/icecreamy1.png", "/icecreamy2.png"]}
+                  title="IceCreamy"
+                  description="An online platform for browsing and ordering a variety of ice creams, allowing users to explore flavors, add items to the cart, and book their orders seamlessly."
+                  techStack={["HTML", "Python", "DJango", "SQLite"]}
+                  codeLink="https://github.com/RajeshBodatech/IceCreamly_Updated"
+                  liveLink="https://icecreamly-updated.onrender.com/"
+                 />
               </div>
             </Section>
             <Section id="experience" title="Experience" color="animated-gradient-bg">
