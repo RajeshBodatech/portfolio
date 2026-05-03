@@ -131,7 +131,7 @@ function App() {
                     viewport={{ once: true, amount: 0.3 }}
                     className="flex-1 flex justify-center items-center min-w-[220px]"
                   >
-                    <img src="/me1.jpg" alt="Rajesh Boda" className="w-56 h-56 md:w-72 md:h-72 rounded-2xl border-4 border-white shadow-xl object-cover object-top aspect-square" />
+                    <img src="/my_pic.jpeg" alt="Rajesh Boda" className="w-56 h-56 md:w-72 md:h-72 rounded-2xl border-4 border-white shadow-xl object-cover object-top aspect-square" />
                   </motion.div>
                 </motion.div>
               </div>
