@@ -261,7 +261,7 @@ function App() {
                     motionProps={{ transition: { delay: 0.1 } }}
                   />
                   <ExperienceCard
-                    title="Fullstack Developer Intern(Remote)"
+                    title="Fullstack Developer Intern(On-site)"
                     org="Cyber Help Hope Initiative Foundation"
                     type="Internship"
                     duration="May 15 – June 30, 2025"
@@ -269,7 +269,7 @@ function App() {
                     motionProps={{ transition: { delay: 0.1 } }}
                   />
                   <ExperienceCard
-                    title="Cybersecurity Intern(Remote)"
+                    title="Cybersecurity Intern(On-site)"
                     org="Cyber Help Hope Initiative Foundation"
                     type="Internship"
                     duration="May 15 – June 30, 2025"
